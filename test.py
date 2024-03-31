@@ -7,7 +7,7 @@ from eth_account.messages import encode_defunct, encode_structured_data, encode_
 
 load_dotenv('.env.local')
 
-w3 = Web3(Web3.HTTPProvider("https://celo-mainnet.infura.io/v3/493939980300497a8998c48dcd98dd41"))
+w3 = Web3(Web3.HTTPProvider("https://polygon-mainnet.infura.io/v3/1de57da7498c4d03bac1f5f664ba56f7"))
 
 APIKEY = os.environ.get("OPENSEA_APIKEY")
 PRIVATE_KEY = os.environ.get("OPENSEA_PRIVATEKEY")
